@@ -1,15 +1,13 @@
 # Dainvo PDF releases
 
-This repository distributes Dainvo PDF installers and release notes. Application source is maintained separately in a private repository.
+Download the installer for your platform from [Releases](https://github.com/Intagri-Technologies/dainvo-pdf-releases/releases). Each installer includes PDFium for XFA forms.
 
-No installers have been published yet. Release automation is configured separately and remains disabled until execution is authorized.
+| Platform | Installer |
+|---|---|
+| Windows x64 | .exe installer |
+| macOS Apple silicon | .pkg installer |
+| Ubuntu and Debian x86-64 | .deb package |
+| Fedora x86-64 | .rpm package |
+| Arch Linux x86-64 | .pkg.tar.zst package |
 
-## Distribution formats
-
-- macOS: universal Apple silicon and Intel packages, configured for Developer ID signing and Apple notarization.
-- Windows: x64 MSI and portable ZIP, configured for Microsoft Azure Artifact Signing.
-- Linux: x64 AppImage, DEB, RPM and tar archives, with signed checksums.
-
-A release must pass validation before publication. Configuration alone does not establish that a package has passed those checks.
-
-Download installers from [Releases](https://github.com/Intagri-Technologies/dainvo-pdf-releases/releases). GitHub's automatically generated source archives contain only this distribution repository's documentation, not the application source or installers.
+Each release includes a changelog and direct installer links.
